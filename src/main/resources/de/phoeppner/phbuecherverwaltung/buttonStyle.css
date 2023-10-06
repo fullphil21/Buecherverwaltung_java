@@ -1,0 +1,55 @@
+/*
+Style-File für die Gestaltung der Button
+*/
+
+.confirm-button {
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-background-color: #ecff89;
+}
+
+.confirm-button:hover {
+    -fx-background-color: #2fb300;
+    -fx-text-fill: white;
+
+}
+
+.confirm-button:pressed {
+    -fx-background-color: #ecff89;
+    -fx-text-fill: black;
+}
+
+.cancel-button {
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-background-color: #ffbc6d;
+
+}
+
+.cancel-button:hover {
+    -fx-background-color: #d35d03;
+    -fx-text-fill: white;
+}
+
+.cancel-button:pressed {
+    -fx-background-color: #ffbc6d;
+    -fx-text-fill: black;
+}
+
+
+.default-button {
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-background-color: #ecff89;
+}
+
+.default-button:hover {
+    -fx-background-color: #d3a303;
+    -fx-text-fill: white;
+
+}
+
+.default-button:pressed {
+    -fx-background-color: #ecff89;
+    -fx-text-fill: black;
+}
